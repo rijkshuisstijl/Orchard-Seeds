@@ -1,0 +1,10 @@
+﻿Name: My Module
+AntiForgery: enabled
+Author: My name
+Website: http://mywebsite.com
+Version: 0.1
+OrchardVersion: 1.7
+Description: Description for the module
+Features:
+    My Feature:
+        Description: Description for My Feature.

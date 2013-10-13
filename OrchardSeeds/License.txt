@@ -1,0 +1,5 @@
+﻿Orchard Seeds
+
+
+A collection of Orchard templates
+Release October 2013

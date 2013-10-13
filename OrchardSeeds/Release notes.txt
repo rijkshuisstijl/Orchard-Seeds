@@ -1,0 +1,34 @@
+﻿Release October 2013
+
+The following items are added in this package:
+
+Project Templates:
+- Empty Module
+
+Item Templates:
+- Admin Menu
+- Api Controller
+- Authorization Attribute
+- Background Task
+- Content Handler
+- Content Part
+- Controller
+- Controller with Worker Service
+- Driver
+- Filter
+- Migrations
+- Module.txt
+- Recipe
+- Resource Manifest
+- Routes
+- Service
+- Validation
+- View
+- Worker Service
+
+
+Templates can be selected by searching with the keyword Orchard or in Web\Orchard folder.
+
+Please sent changes or additional templates for the next release with pull requests of an export of a template to https://github.com/rijkshuisstijl/Orchard-Seeds. You can copy an existing one and modify it.
+
+Package can be disabled or uninstalled via Tools\Extensions and Updates

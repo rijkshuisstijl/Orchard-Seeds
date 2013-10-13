@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<Orchard>
+  <Recipe>
+    <Name>$safeitemname$</Name>
+    <Description>Description of $safeitemname$</Description>
+    <Author>MyName</Author>
+    <WebSite>http://mysite.com</WebSite>
+    <Tags></Tags>
+    <Version>1.0</Version>
+  </Recipe>
+
+  <Feature enable="" />
+
+
+  <Metadata>
+    <Types>
+    </Types>
+  </Metadata>
+
+  <Settings />
+
+  <Migration features="*" />
+
+  <Command>
+  </Command>
+</Orchard>

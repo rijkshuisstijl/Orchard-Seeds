@@ -1,0 +1,18 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>ApiController.cs</DefaultName>
+    <Name>Orchard Api Controller</Name>
+    <Description>Orchard Api Controller</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>OrchardLogo_bw.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">ApiController.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

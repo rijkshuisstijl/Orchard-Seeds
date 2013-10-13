@@ -1,0 +1,14 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Module.txt</DefaultName>
+    <Name>Orchard Module.txt</Name>
+    <Description>Orchard Module manifest</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>OrchardLogo_bw.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="Module.txt" ReplaceParameters="true">Module.txt</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

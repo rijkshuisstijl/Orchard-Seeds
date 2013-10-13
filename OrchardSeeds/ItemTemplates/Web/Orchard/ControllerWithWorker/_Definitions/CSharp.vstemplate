@@ -1,0 +1,13 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>OnlyPrefix</DefaultName>
+    <Name>Orchard Controller with Worker Service</Name>
+    <Description>Orchard Controller with Worker Service. Note: give filename without 'Controller.cs'</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>OrchardLogo_bw.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$Controller.cs" ReplaceParameters="true">ControllerWithWorker.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

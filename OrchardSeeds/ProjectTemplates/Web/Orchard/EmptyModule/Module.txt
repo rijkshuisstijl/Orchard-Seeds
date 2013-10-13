@@ -1,0 +1,11 @@
+﻿Name: $safeprojectname$
+AntiForgery: enabled
+Author: 
+Website: 
+Version: 0.1
+OrchardVersion: 1.7
+Description: Description for the module
+Dependencies:
+Features:
+    $safeprojectname$:
+        Description: Description for feature .

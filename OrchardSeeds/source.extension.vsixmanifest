@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="690a4473-ae14-43f9-93af-955b5614a779" Version="0.1" Language="en-US" Publisher="CIBG" />
+    <DisplayName>OrchardSeeds</DisplayName>
+    <Description>A collection of Orchard templates to grow an great Orchard</Description>
+    <MoreInfo>http://orchardproject.net</MoreInfo>
+    <License>License.txt</License>
+    <GettingStartedGuide>ItemTemplates\Web\Orchard\Module\Module.txt</GettingStartedGuide>
+    <ReleaseNotes>Release notes.txt</ReleaseNotes>
+    <Icon>logo_small.png</Icon>
+    <PreviewImage>logo_big.png</PreviewImage>
+    <Tags>Orchard seeds templates </Tags>
+  </Metadata>
+  <Installation InstalledByMsi="false">
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
+    <InstallationTarget Version="12.0" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.11.0" DisplayName="Visual Studio MPF 11.0" d:Source="Installed" Version="11.0" />
+  </Dependencies>
+  <Assets>
+  <!--  <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" /> -->
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="Output\ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="Output\ProjectTemplates" />
+  </Assets>
+</PackageManifest>

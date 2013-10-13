@@ -6,7 +6,6 @@
     <Description>A collection of Orchard templates to grow an great Orchard</Description>
     <MoreInfo>http://orchardproject.net</MoreInfo>
     <License>License.txt</License>
-    <GettingStartedGuide>ItemTemplates\Web\Orchard\Module\Module.txt</GettingStartedGuide>
     <ReleaseNotes>Release notes.txt</ReleaseNotes>
     <Icon>logo_small.png</Icon>
     <PreviewImage>logo_big.png</PreviewImage>
@@ -21,7 +20,7 @@
     <Dependency Id="Microsoft.VisualStudio.MPF.11.0" DisplayName="Visual Studio MPF 11.0" d:Source="Installed" Version="11.0" />
   </Dependencies>
   <Assets>
-  <!--  <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" /> -->
+    <!--  <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" /> -->
     <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="Output\ItemTemplates" />
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="Output\ProjectTemplates" />
   </Assets>

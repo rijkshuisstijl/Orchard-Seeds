@@ -10,6 +10,7 @@ Item Templates:
 - Api Controller
 - Authorization Attribute
 - Background Task
+- Commandline
 - Content Handler
 - Content Part
 - Controller
@@ -18,6 +19,7 @@ Item Templates:
 - Filter
 - Migrations
 - Module.txt
+- Permissions
 - Recipe
 - Resource Manifest
 - Routes

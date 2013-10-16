@@ -26,7 +26,7 @@
     <IncludeDebugSymbolsInLocalVSIXDeployment>false</IncludeDebugSymbolsInLocalVSIXDeployment>
     <CopyBuildOutputToOutputDirectory>false</CopyBuildOutputToOutputDirectory>
     <CopyOutputSymbolsToOutputDirectory>false</CopyOutputSymbolsToOutputDirectory>
-	<StartAction>Program</StartAction>
+    <StartAction>Program</StartAction>
     <StartProgram>$(DevEnvDir)devenv.exe</StartProgram>
     <StartArguments>/rootsuffix Exp</StartArguments>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
@@ -76,6 +76,8 @@
     <Compile Include="ItemTemplates\Web\Orchard\ContentPart\ContentPart.cs" />
     <Compile Include="ItemTemplates\Web\Orchard\ControllerWithWorker\ControllerWithWorker.cs" />
     <Compile Include="ItemTemplates\Web\Orchard\Controller\Controller.cs" />
+    <Compile Include="ItemTemplates\Web\Orchard\CommandLine\CommandLine.cs" />
+    <Compile Include="ItemTemplates\Web\Orchard\Permissions\Permissions.cs" />
     <Compile Include="ItemTemplates\Web\Orchard\Driver\Driver.cs" />
     <Compile Include="ItemTemplates\Web\Orchard\Filter\Filter.cs" />
     <Compile Include="ItemTemplates\Web\Orchard\Handler\ContentHandler.cs" />
@@ -112,26 +114,26 @@
     <Resource Include="ItemTemplates\Web\Orchard\BackgroundTask\OrchardLogo_bw.png" />
     <Content Include="ItemTemplates\Web\Orchard\BackgroundTask\_Definitions\CSharp.vstemplate" />
     <Resource Include="ItemTemplates\Web\Orchard\ContentPart\OrchardLogo_bw.png" />
+    <Resource Include="ItemTemplates\Web\Orchard\CommandLine\OrchardLogo_bw.png" />
     <Content Include="ItemTemplates\Web\Orchard\ContentPart\_Definitions\CSharp.vstemplate" />
     <Resource Include="ItemTemplates\Web\Orchard\ControllerWithWorker\OrchardLogo_bw.png" />
     <Content Include="ItemTemplates\Web\Orchard\ControllerWithWorker\_Definitions\CSharp.vstemplate" />
     <Resource Include="ItemTemplates\Web\Orchard\Controller\OrchardLogo_bw.png" />
     <Content Include="ItemTemplates\Web\Orchard\Controller\_Definitions\CSharp.vstemplate" />
-    <Resource Include="ItemTemplates\Web\Orchard\Driver\OrchardLogo_bw.png" />
-    <Content Include="ItemTemplates\Web\Orchard\Driver\_Definitions\CSharp.vstemplate" />
-    <Resource Include="ItemTemplates\Web\Orchard\Filter\OrchardLogo_bw.png" />
-    <Content Include="ItemTemplates\Web\Orchard\Filter\_Definitions\CSharp.vstemplate" />
-    <Resource Include="ItemTemplates\Web\Orchard\Handler\OrchardLogo_bw.png" />
-    <Content Include="ItemTemplates\Web\Orchard\Handler\_Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Web\Orchard\CommandLine\_Definitions\CSharp.vstemplate" />
+    <Resource Include="ItemTemplates\Web\Orchard\Module\OrchardLogo_bw.png" />
     <Resource Include="ItemTemplates\Web\Orchard\Migrations\OrchardLogo_bw.png" />
+    <Resource Include="ItemTemplates\Web\Orchard\Handler\OrchardLogo_bw.png" />
+    <Resource Include="ItemTemplates\Web\Orchard\Filter\OrchardLogo_bw.png" />
+    <Resource Include="ItemTemplates\Web\Orchard\Driver\OrchardLogo_bw.png" />
+    <Resource Include="ItemTemplates\Web\Orchard\Permissions\OrchardLogo_bw.png" />
+    <Content Include="ItemTemplates\Web\Orchard\Permissions\_Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Web\Orchard\Driver\_Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Web\Orchard\Filter\_Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Web\Orchard\Handler\_Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Web\Orchard\Migrations\_Definitions\CSharp.vstemplate" />
     <Resource Include="ItemTemplates\Web\Orchard\Module\Module.txt" />
-    <Resource Include="ItemTemplates\Web\Orchard\Module\OrchardLogo_bw.png" />
     <Content Include="ItemTemplates\Web\Orchard\Module\_Definitions\CSharp.vstemplate" />
-    <Resource Include="ItemTemplates\Web\Orchard\OrchardLogo.png" />
-    <Resource Include="ItemTemplates\Web\Orchard\OrchardLogo2.png" />
-    <Resource Include="ItemTemplates\Web\Orchard\OrchardLogo3.png" />
-    <Resource Include="ItemTemplates\Web\Orchard\OrchardLogo4.png" />
     <Resource Include="ItemTemplates\Web\Orchard\Recipe\my.recipe.xml" />
     <Resource Include="ItemTemplates\Web\Orchard\Recipe\OrchardLogo_bw.png" />
     <Content Include="ItemTemplates\Web\Orchard\Recipe\_Definitions\CSharp.vstemplate" />
@@ -145,7 +147,6 @@
     <Content Include="ItemTemplates\Web\Orchard\Validation\_Definitions\CSharp.vstemplate" />
     <Resource Include="ItemTemplates\Web\Orchard\View\OrchardLogo_bw.png" />
     <Content Include="ItemTemplates\Web\Orchard\View\_Definitions\CSharp.vstemplate" />
-    <Resource Include="ItemTemplates\Web\Orchard\WorkerService\OrchardLogo_bw.png" />
     <Content Include="ItemTemplates\Web\Orchard\WorkerService\_Definitions\CSharp.vstemplate" />
     <Content Include="License.txt">
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -159,9 +160,6 @@
     <Content Include="ProjectTemplates\Web\Orchard\EmptyModule\EmptyModule.csproj" />
     <Resource Include="ProjectTemplates\Web\Orchard\EmptyModule\Module.txt" />
     <Resource Include="ProjectTemplates\Web\Orchard\EmptyModule\OrchardLogo.png" />
-    <Resource Include="ProjectTemplates\Web\Orchard\EmptyModule\OrchardLogo2.png" />
-    <Resource Include="ProjectTemplates\Web\Orchard\EmptyModule\OrchardLogo3.png" />
-    <Resource Include="ProjectTemplates\Web\Orchard\EmptyModule\OrchardLogo4.png" />
     <Content Include="ProjectTemplates\Web\Orchard\EmptyModule\_Definitions\CSharp.vstemplate" />
     <Content Include="Release notes.txt">
       <IncludeInVSIX>true</IncludeInVSIX>

@@ -1,11 +1,7 @@
-﻿#region Usings
-
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Orchard.Mvc.Routes;
-
-#endregion
 
 namespace $safeprojectname$
 {

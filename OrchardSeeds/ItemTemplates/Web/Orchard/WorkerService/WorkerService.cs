@@ -1,11 +1,7 @@
-﻿#region Usings
-
-using Orchard;
+﻿using Orchard;
 using Orchard.Localization;
 using Orchard.Logging;
 using Orchard.UI.Notify;
-
-#endregion
 
 namespace $rootnamespace$
 {

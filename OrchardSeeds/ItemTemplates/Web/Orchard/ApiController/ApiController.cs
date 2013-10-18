@@ -1,8 +1,5 @@
-﻿#region Usings
+﻿using System.Web.Http;
 
-using System.Web.Http;
-
-#endregion
 
 namespace $rootnamespace$
 {

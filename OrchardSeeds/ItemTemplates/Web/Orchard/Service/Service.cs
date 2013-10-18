@@ -1,8 +1,4 @@
-﻿#region Usings
-
-using Orchard;
-
-#endregion
+﻿using Orchard;
 
 namespace $rootnamespace$
 {

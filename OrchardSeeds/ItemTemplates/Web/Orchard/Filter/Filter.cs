@@ -1,9 +1,6 @@
-﻿#region Usings
-
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using Orchard.Mvc.Filters;
 
-#endregion
 
 namespace $rootnamespace$
 {

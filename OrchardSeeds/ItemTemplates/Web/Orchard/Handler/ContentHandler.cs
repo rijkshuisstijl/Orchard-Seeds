@@ -1,8 +1,5 @@
-﻿#region Usings
+﻿using Orchard.ContentManagement.Handlers;
 
-using Orchard.ContentManagement.Handlers;
-
-#endregion
 
 namespace $rootnamespace$
 {

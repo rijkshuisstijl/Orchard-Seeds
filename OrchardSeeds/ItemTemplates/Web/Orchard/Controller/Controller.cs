@@ -1,8 +1,5 @@
-﻿#region Usings
+﻿using System.Web.Mvc;
 
-using System.Web.Mvc;
-
-#endregion
 
 namespace $rootnamespace$
 {

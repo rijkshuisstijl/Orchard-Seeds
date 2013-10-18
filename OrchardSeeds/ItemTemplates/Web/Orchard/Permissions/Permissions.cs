@@ -1,10 +1,6 @@
-﻿#region Usings
-
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Orchard.Environment.Extensions.Models;
 using Orchard.Security.Permissions;
-
-#endregion
 
 namespace $rootnamespace$
 {

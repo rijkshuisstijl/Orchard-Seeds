@@ -1,13 +1,10 @@
-﻿#region Usings
-
-using System;
+﻿using System;
 using System.Web.Mvc;
 using Orchard;
 using Orchard.Localization;
 using Orchard.Security;
 using Orchard.Security.Permissions;
 
-#endregion
 
 namespace $rootnamespace$
 {

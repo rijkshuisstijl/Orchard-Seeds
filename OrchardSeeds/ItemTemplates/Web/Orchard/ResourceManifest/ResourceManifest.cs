@@ -1,8 +1,4 @@
-﻿#region Usings
-
-using Orchard.UI.Resources;
-
-#endregion
+﻿using Orchard.UI.Resources;
 
 namespace $rootnamespace$
 {

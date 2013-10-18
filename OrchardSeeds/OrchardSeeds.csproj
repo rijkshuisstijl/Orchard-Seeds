@@ -48,7 +48,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -106,6 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="ItemTemplates\Web\Orchard\Admin Menu\OrchardLogo_bw.png" />
+    <Resource Include="ItemTemplates\OrchardLogo_bw130.png" />
     <Content Include="ItemTemplates\Web\Orchard\Admin Menu\_Definitions\CSharp.vstemplate" />
     <Resource Include="ItemTemplates\Web\Orchard\ApiController\OrchardLogo_bw.png" />
     <Content Include="ItemTemplates\Web\Orchard\ApiController\_Definitions\CSharp.vstemplate" />
@@ -115,6 +116,7 @@
     <Content Include="ItemTemplates\Web\Orchard\BackgroundTask\_Definitions\CSharp.vstemplate" />
     <Resource Include="ItemTemplates\Web\Orchard\ContentPart\OrchardLogo_bw.png" />
     <Resource Include="ItemTemplates\Web\Orchard\CommandLine\OrchardLogo_bw.png" />
+    <Resource Include="ItemTemplates\orchardlogo_bw64.png" />
     <Content Include="ItemTemplates\Web\Orchard\ContentPart\_Definitions\CSharp.vstemplate" />
     <Resource Include="ItemTemplates\Web\Orchard\ControllerWithWorker\OrchardLogo_bw.png" />
     <Content Include="ItemTemplates\Web\Orchard\ControllerWithWorker\_Definitions\CSharp.vstemplate" />
@@ -159,7 +161,7 @@
     </Content>
     <Content Include="ProjectTemplates\Web\Orchard\EmptyModule\EmptyModule.csproj" />
     <Resource Include="ProjectTemplates\Web\Orchard\EmptyModule\Module.txt" />
-    <Resource Include="ProjectTemplates\Web\Orchard\EmptyModule\OrchardLogo.png" />
+    <Resource Include="ProjectTemplates\Web\Orchard\EmptyModule\orchardlogo_bw.png" />
     <Content Include="ProjectTemplates\Web\Orchard\EmptyModule\_Definitions\CSharp.vstemplate" />
     <Content Include="Release notes.txt">
       <IncludeInVSIX>true</IncludeInVSIX>

@@ -1,10 +1,7 @@
-﻿#region Usings
-
-using Orchard.ContentManagement;
+﻿using Orchard.ContentManagement;
 using Orchard.ContentManagement.Drivers;
 using Orchard.ContentManagement.Handlers;
 
-#endregion
 
 namespace $rootnamespace$
 {

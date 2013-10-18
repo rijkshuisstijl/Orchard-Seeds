@@ -1,10 +1,7 @@
-﻿#region Usings
-
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using Orchard;
 using Orchard.UI.Notify;
 
-#endregion
 
 namespace $rootnamespace$
 {

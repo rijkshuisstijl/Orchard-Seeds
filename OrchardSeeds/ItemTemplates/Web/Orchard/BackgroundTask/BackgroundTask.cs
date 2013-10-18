@@ -1,8 +1,5 @@
-﻿#region Usings
+﻿using Orchard.Tasks;
 
-using Orchard.Tasks;
-
-#endregion
 
 namespace $rootnamespace$
 {

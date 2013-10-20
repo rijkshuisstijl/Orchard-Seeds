@@ -8,6 +8,6 @@
     <Icon>OrchardLogo_bw.png</Icon>
   </TemplateData>
   <TemplateContent>
-    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">Controller.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemname$.cs" ReplaceParameters="true">Controller.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

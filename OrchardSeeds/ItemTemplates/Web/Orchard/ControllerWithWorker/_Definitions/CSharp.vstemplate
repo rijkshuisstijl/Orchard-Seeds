@@ -2,12 +2,17 @@
   <TemplateData>
     <DefaultName>OnlyPrefix</DefaultName>
     <Name>Orchard Controller with Worker Service</Name>
-    <Description>Orchard Controller with Worker Service. Note: give filename without 'Controller.cs'</Description>
+    <Description>Orchard Controller with Worker Service. Important!! : Add this item at the root of the project with a 'file'name without 'Controller.cs', ex 'Search' for a 'SearchController'. It creates the controller, a workerservice with an interface and folders for inputmodels, viewmodels and views.</Description>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>10</SortOrder>
     <Icon>OrchardLogo_bw.png</Icon>
   </TemplateData>
   <TemplateContent>
-    <ProjectItem SubType="Code" TargetFileName="$fileinputname$Controller.cs" ReplaceParameters="true">ControllerWithWorker.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="Controllers\$safeitemname$Controller.cs" ReplaceParameters="true">Controller.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="WorkerServices\$safeitemname$WorkerService.cs" ReplaceParameters="true">WorkerService.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="WorkerServices\I$safeitemname$WorkerService.cs" ReplaceParameters="true">IWorkerService.cs</ProjectItem>
+    <ProjectItem SubType="Text" TargetFileName="ViewModels\$safeitemname$\placeholder.txt" ReplaceParameters="false">placeholder.txt</ProjectItem>
+    <ProjectItem SubType="Text" TargetFileName="InputModels\$safeitemname$\placeholder.txt" ReplaceParameters="false">placeholder.txt</ProjectItem>
+    <ProjectItem SubType="Text" TargetFileName="Views\$safeitemname$\placeholder.txt" ReplaceParameters="false">placeholder.txt</ProjectItem>
   </TemplateContent>
 </VSTemplate>

@@ -3,7 +3,7 @@
   <Metadata>
     <Identity Id="690a4473-ae14-43f9-93af-955b5614a779" Version="0.1" Language="en-US" Publisher="CIBG" />
     <DisplayName>Orchard Seeds</DisplayName>
-    <Description>A collection of Orchard templates to grow an great Orchard</Description>
+    <Description xml:space="preserve">A collection of Orchard templates to grow a great Orchard</Description>
     <MoreInfo>http://orchardproject.net</MoreInfo>
     <License>License.txt</License>
     <ReleaseNotes>Release notes.txt</ReleaseNotes>

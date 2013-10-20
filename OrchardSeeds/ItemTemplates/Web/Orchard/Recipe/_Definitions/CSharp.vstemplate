@@ -9,6 +9,6 @@
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem SubType="" TargetFileName="$fileinputname$.recipe.xml" ReplaceParameters="true">my.recipe.xml</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$safeitemname$.recipe.xml" ReplaceParameters="true">my.recipe.xml</ProjectItem>
   </TemplateContent>
 </VSTemplate>

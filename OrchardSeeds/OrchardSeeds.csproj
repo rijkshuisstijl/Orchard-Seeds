@@ -74,7 +74,9 @@
     <Compile Include="ItemTemplates\Web\Orchard\AuthorizationAttribute\OrchardAuthorizationAttribute.cs" />
     <Compile Include="ItemTemplates\Web\Orchard\BackgroundTask\BackgroundTask.cs" />
     <Compile Include="ItemTemplates\Web\Orchard\ContentPart\ContentPart.cs" />
-    <Compile Include="ItemTemplates\Web\Orchard\ControllerWithWorker\ControllerWithWorker.cs" />
+    <Compile Include="ItemTemplates\Web\Orchard\ControllerWithWorker\Controller.cs" />
+    <Compile Include="ItemTemplates\Web\Orchard\ControllerWithWorker\IWorkerService.cs" />
+    <Compile Include="ItemTemplates\Web\Orchard\ControllerWithWorker\WorkerService.cs" />
     <Compile Include="ItemTemplates\Web\Orchard\Controller\Controller.cs" />
     <Compile Include="ItemTemplates\Web\Orchard\CommandLine\CommandLine.cs" />
     <Compile Include="ItemTemplates\Web\Orchard\Permissions\Permissions.cs" />
@@ -119,6 +121,7 @@
     <Resource Include="ItemTemplates\orchardlogo_bw64.png" />
     <Content Include="ItemTemplates\Web\Orchard\ContentPart\_Definitions\CSharp.vstemplate" />
     <Resource Include="ItemTemplates\Web\Orchard\ControllerWithWorker\OrchardLogo_bw.png" />
+    <Resource Include="ItemTemplates\Web\Orchard\ControllerWithWorker\placeholder.txt" />
     <Content Include="ItemTemplates\Web\Orchard\ControllerWithWorker\_Definitions\CSharp.vstemplate" />
     <Resource Include="ItemTemplates\Web\Orchard\Controller\OrchardLogo_bw.png" />
     <Content Include="ItemTemplates\Web\Orchard\Controller\_Definitions\CSharp.vstemplate" />

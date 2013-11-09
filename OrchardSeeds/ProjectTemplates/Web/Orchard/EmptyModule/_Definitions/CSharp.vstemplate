@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>Orchard Empty Module</Name>
-    <Description>Orchard Empty Module</Description>
+    <Description>Orchard Empty Module. !! Set the Location on .\Orchard.Web\Modules !!</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>

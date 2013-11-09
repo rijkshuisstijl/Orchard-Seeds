@@ -79,6 +79,7 @@
     <Compile Include="ItemTemplates\Web\Orchard\ControllerWithWorker\WorkerService.cs" />
     <Compile Include="ItemTemplates\Web\Orchard\Controller\Controller.cs" />
     <Compile Include="ItemTemplates\Web\Orchard\CommandLine\CommandLine.cs" />
+    <Compile Include="ItemTemplates\Web\Orchard\Custom Validation\CustomValidation.cs" />
     <Compile Include="ItemTemplates\Web\Orchard\Permissions\Permissions.cs" />
     <Compile Include="ItemTemplates\Web\Orchard\Driver\Driver.cs" />
     <Compile Include="ItemTemplates\Web\Orchard\Filter\Filter.cs" />
@@ -132,6 +133,8 @@
     <Resource Include="ItemTemplates\Web\Orchard\Filter\OrchardLogo_bw.png" />
     <Resource Include="ItemTemplates\Web\Orchard\Driver\OrchardLogo_bw.png" />
     <Resource Include="ItemTemplates\Web\Orchard\Permissions\OrchardLogo_bw.png" />
+    <Resource Include="ItemTemplates\Web\Orchard\Custom Validation\OrchardLogo_bw.png" />
+    <Content Include="ItemTemplates\Web\Orchard\Custom Validation\_Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Web\Orchard\Permissions\_Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Web\Orchard\Driver\_Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Web\Orchard\Filter\_Definitions\CSharp.vstemplate" />

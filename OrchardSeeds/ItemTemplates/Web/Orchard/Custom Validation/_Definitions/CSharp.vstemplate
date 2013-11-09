@@ -1,8 +1,8 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <DefaultName>Validation.cs</DefaultName>
-    <Name>Orchard Custom Model Validation</Name>
-    <Description>Orchard Custom Model Validation</Description>
+    <DefaultName>CustomValidation.cs</DefaultName>
+    <Name>Orchard Custom Model Validation with use of Services</Name>
+    <Description>Orchard Custom Model Validation with use of Orchard Services and all properties of the Model</Description>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>10</SortOrder>
     <Icon>OrchardLogo_bw.png</Icon>

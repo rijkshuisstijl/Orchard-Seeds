@@ -1,4 +1,4 @@
-﻿Release October 2013
+﻿Release November 2013
 
 The following items are added in this package:
 
@@ -15,6 +15,7 @@ Item Templates:
 - Content Part
 - Controller
 - Controller with Worker Service
+- Custom Model Validation
 - Driver
 - Filter
 - Migrations

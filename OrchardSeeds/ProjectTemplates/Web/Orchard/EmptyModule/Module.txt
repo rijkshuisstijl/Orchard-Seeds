@@ -8,4 +8,4 @@ Description: Description for the module
 Dependencies:
 Features:
     $safeprojectname$:
-        Description: Description for feature .
+        Description: Description for feature $safeprojectname$.
